@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "GenshinImpact"; /* Project id 4589694 */
+  src: url('iconfont.woff2?t=1718703543353') format('woff2'),
+       url('iconfont.woff?t=1718703543353') format('woff'),
+       url('iconfont.ttf?t=1718703543353') format('truetype'),
+       url('iconfont.svg?t=1718703543353#GenshinImpact') format('svg');
+}
+
+.GenshinImpact {
+  font-family: "GenshinImpact" !important;
+  font-style: normal;
+  font-size: 36px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.gi-yan:before {
+  content: "\e60d";
+}
+
+.gi-shui:before {
+  content: "\e60f";
+}
+
+.gi-huo:before {
+  content: "\e610";
+}
+
+.gi-cao:before {
+  content: "\e611";
+}
+
+.gi-bing:before {
+  content: "\e612";
+}
+
+.gi-lei:before {
+  content: "\e613";
+}
+
+.gi-feng:before {
+  content: "\e614";
+}
+
+.gi-cengyanjuyuan:before {
+  content: "\e608";
+}
+
+.gi-liyue:before {
+  content: "\e60e";
+}
+
+.gi-xumi:before {
+  content: "\e602";
+}
+
+.gi-yuanxiagong:before {
+  content: "\e605";
+}
+
+.gi-chengehu:before {
+  content: "\e606";
+}
+
+.gi-dachishahai:before {
+  content: "\e607";
+}
+
+.gi-chenyugu:before {
+  content: "\e609";
+}
+
+.gi-mengde:before {
+  content: "\e60a";
+}
+
+.gi-fengdan:before {
+  content: "\e60b";
+}
+
+.gi-longjixueshan:before {
+  content: "\e60c";
+}
+
+.gi-jiurizhihai:before {
+  content: "\e604";
+}
+
+.gi-daoqi:before {
+  content: "\e603";
+}
+

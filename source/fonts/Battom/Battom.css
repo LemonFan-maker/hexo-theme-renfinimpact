@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Battom Glory';
+    src: url('BattomGlory.otf') format('opentype'),
+         url('BattomGlory.woff2') format('woff2'),
+         url('BattomGlory.woff') format('woff');
+         font-weight: 200 700;
+         font-display: swap;
+         font-style: normal;
+  }

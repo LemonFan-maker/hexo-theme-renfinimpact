@@ -1,0 +1,42 @@
+{
+  "name": "hexo-theme-renfinimpact",
+  "version": "2.6.2",
+  "private": false,
+  "description": "RenfinImpact your writing with Hexo Theme RenfinImpact.",
+  "scripts": {
+    "npm:publish": "npm publish",
+    "format": "prettier --write ./source/js/*.js ./scripts",
+    "lint:style": "stylelint --fix ./source/css",
+    "git:push": "git push --tag && git push -u origin dev",
+    "git:add": "npm run lint:style && git add .",
+    "build:css": "tailwindcss build -i source/css/style.styl -o source/assets/build/styles.css",
+    "watch:css": "tailwindcss build -i source/css/style.styl -o source/assets/build/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LemonFan-maker/hexo-theme-renfinimpact.git"
+  },
+  "keywords": [
+    "hexo",
+    "theme",
+    "GenshinImpact",
+    "RenfinImpact",
+    "simple",
+    "pure",
+    "powerful",
+    "hexo-theme"
+  ],
+  "author": "EvanNotFound&OrionisLi",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/LemonFan-maker/hexo-theme-renfinimpact/issues"
+  },
+  "homepage": "https://github.com/LemonFan-maker",
+  "devDependencies": {
+    "eslint": "^8.47.0",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "postcss": "^8.4.28"
+  }
+}
